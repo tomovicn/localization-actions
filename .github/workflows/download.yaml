@@ -1,7 +1,7 @@
 name: download_translized
 on:
   schedule:
-    - cron: '* * * * *'
+    - cron: '0 * * * *'
   workflow_dispatch:
 
 
