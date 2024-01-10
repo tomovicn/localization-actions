@@ -1,0 +1,28 @@
+name: download_translized
+on:
+  schedule:
+    - cron: '* * * * *'
+  workflow_dispatch:
+
+
+jobs:
+  download:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Copy repository
+        uses: actions/checkout@v4
+
+      - name: Download from translized
+        run: |
+          ruby download.rb
+          
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v5
+        with:
+          commit-message: Update translation files
+          committer: GitHub <noreply@github.com>
+          author: ${{ github.actor }} <${{ github.actor }}@users.noreply.github.com>
+          title: 'Update translation files'
+          body: |
+            Updated translation files from translized.
+            Link: https://app.translized.com/project/uirdZQ5gPR/languages
