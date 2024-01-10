@@ -16,9 +16,13 @@ jobs:
         run: |
           ruby download.rb
           
-      - name: Commit Downloaded Localization Files
-      id: "auto-commit-action"
-      uses: stefanzweifel/git-auto-commit-action@v4
-      with:
-        commit_message: Update localization files
-        branch: main
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v5
+        with:
+          commit-message: Update translation files
+          committer: GitHub <noreply@github.com>
+          author: ${{ github.actor }} <${{ github.actor }}@users.noreply.github.com>
+          title: 'Update translation files'
+          body: |
+            Updated translation files from translized.
+            Link: https://app.translized.com/project/uirdZQ5gPR/languages
