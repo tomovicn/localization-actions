@@ -1,0 +1,9 @@
+---
+:translized:
+  :access_token: 610402a6-5dc3-46aa-bc3b-19a8b29288ed
+  :project_id: uirdZQ5gPR
+  :download:
+  - :path: "./languages/<locale_code>.json"
+    :file_format: json
+  :upload:
+  - :path: "./languages/<locale_code>.json"

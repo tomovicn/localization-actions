@@ -1,0 +1,19 @@
+name: upload_translized
+on:
+  push:
+    branches:
+      - 'main'
+    paths:
+      - languages/en.json
+
+
+jobs:
+  upload:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Copy repository
+        uses: actions/checkout@v4
+
+      - name: Upload to translized
+        run: |
+          ruby upload.rb false - -
