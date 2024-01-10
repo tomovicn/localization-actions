@@ -1,3 +1,3 @@
 # localization-actions
 
-This is example of upload to Translized action
+This is example of upload and download to Translized action
