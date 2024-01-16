@@ -89,5 +89,7 @@
   "accountDetails.form.firstName": "First Name",
   "accountDetails.form.lastName": "Last Name",
   "accountDetails.form.email": "E-mail",
-  "accountDetails.form.primaryEmail": "Primary E-mail"
+  "accountDetails.form.primaryEmail": "Primary E-mail",
+  "accountDetails.form.profilePicture": "Profile image",
+  "accountDetails.form.noSelectedImage": "Click here to upload a profile image!"
 }
