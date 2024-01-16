@@ -80,15 +80,5 @@
   "accountDetails.groupSubtitle.site": "Meditation trust fund Brooklyn kombucha typewriter.",
   "accountDetails.groupSubtitle.personal": "Vexillologist letterpress, banjo artisan woke semiotics direct trade keytar.",
   "accountDetails.form.jobTitle": "Job Title",
-  "accountDetails.form.website": "Website",
-  "accountDetails.form.phone": "Phone",
-  "accountDetails.form.mobile": "Mobile",
-  "accountDetails.form.language": "Language",
-  "accountDetails.form.timeZone": "Time Zone",
-  "accountDetails.form.currency": "Currency",
-  "accountDetails.form.firstName": "First Name",
-  "accountDetails.form.lastName": "Last Name",
-  "accountDetails.form.email": "E-mail",
-  "accountDetails.form.primaryEmail": "Primary E-mail",
-  "accountDetails.form.profilePicture": "Profile image"
+  "accountDetails.form.website": "Website"
 }
