@@ -88,5 +88,8 @@
   "accountDetails.form.currency": "Currency",
   "accountDetails.form.firstName": "First Name",
   "accountDetails.form.lastName": "Last Name",
-  "accountDetails.form.email": "E-mail"
+  "accountDetails.form.email": "E-mail",
+  "accountDetails.form.primaryEmail": "Primary E-mail",
+  "accountDetails.form.profilePicture": "Profile image",
+  "accountDetails.form.noSelectedImage1": "Click here to upload a profile image!"
 }
