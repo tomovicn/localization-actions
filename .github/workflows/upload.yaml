@@ -14,8 +14,9 @@ jobs:
       - name: Copy repository
         uses: actions/checkout@v4
 
-      - name: Translized upload
-        uses: translized/upload@v0.9
+      # - name: Translized upload
+      #   uses: translized/upload@v0.9
+      - uses: localazy/upload@v1
 
       # - name: Upload to translized
       #   run: |
