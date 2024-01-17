@@ -12,9 +12,11 @@ jobs:
       - name: Copy repository
         uses: actions/checkout@v4
 
-      - name: Download from translized
-        run: |
-          ruby download.rb
+      - name: Translized download
+        uses: translized/download@v0.1
+            
+        # run: |
+        #   ruby download.rb
           
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v5
