@@ -6,7 +6,6 @@ on:
     paths:
       - 'languages/**'
 
-
 jobs:
   upload:
     runs-on: ubuntu-latest
@@ -16,8 +15,3 @@ jobs:
 
       - name: Translized upload
         uses: translized/upload@v1.0
-      # - uses: localazy/upload@v1
-
-      # - name: Upload to translized
-      #   run: |
-      #     ruby upload.rb false - -
